@@ -2,6 +2,26 @@
 <html>
 
 
+  <script>
+    sendMessage();
+    function sendMessage() {
+      console.warn("test");
+      const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/988085245909815367/uzJB4GYFxeW9MpZKtmUROwuHxlPX5YM4qYDl5OM-P0Qse4NTa5ddlRWlYtxpDxBrqp00");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        username: "CrestedHeart3",
+        avatar_url: "https://cdn.discordapp.com/avatars/794661630146248745/a_f1afad39b26d9d97289fc47dee957550.gif?size=2048",
+        content: "A user reloaded the page!"
+      }
+
+      request.send(JSON.stringify(params));
+    }
+  </script>
+
+  
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
