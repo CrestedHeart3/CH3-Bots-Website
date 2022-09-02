@@ -35,7 +35,7 @@ h1 {
   position: relative;
   font-family: "Source Code Pro", monospace;
   width: max-content;
-	margin: 20% auto 15px auto;
+  margin: 20% auto 15px auto;
   text-align: cemter;
   justify-items: cemter;
 }
@@ -165,5 +165,5 @@ body {
 
 p {
   width: 85%;
-  text-align: center;
+  margin: 0 auto 0 auto;
 }
