@@ -162,3 +162,7 @@ h2 {
 body {
   font-weight: 900;
 }
+
+.left {
+  width: 85%;
+}
